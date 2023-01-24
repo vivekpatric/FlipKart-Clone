@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;;
+}
+body{
+    background-color: #f1f3f6;
+
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.logo a{
+    color: white;
+    font-size: 11px;
+    font-style: italic;
+    text-decoration: none;
+}
+.logo span{
+    color: #ffe500;
+}
+.search{
+    width: calc(100%-540px);
+    min-width: 250px;
+    margin-right: auto;
+    align-items: baseline;
+    color: #757575;
+}
+.search input{
+    font-size: 0.8em;
+    border: none;
+    padding: 0;
+    outline: none;
+}
+.search input:focus{
+    box-shadow: none;
+}
+.search-item h6{
+    color: rgb(101,101,104);
+    font-size: 0.8em;
+}
+.search-item a{
+    font-size: 0.9em;
+    color: rgb(90,90,92);
+}
+.login{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+
+}
+.login button{
+    border-radius: 0;
+    border: 0;
+    padding: 0.375rem 2.75rem;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.login-list a{
+    font-size: 0.8em;
+}
+#signup{
+    
+    font-weight: 600;
+}
+.more{
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 0.8em;
+}
+.slider-heading h4{
+   font-size: 1.5em;
+   margin-bottom: 0; 
+}
+.sales-banner h6{
+    font-size: 0.9em;
+    margin-bottom: 0;
+}
+.sales-banner .view-btn{
+    display: flex;
+    justify-content: flex-end;
+}
+.view-btn button{
+    font-size: 0.9em;
+    padding: 0.4em 1.5em;
+    border-radius: 0;
+}
+.sales{
+    cursor: pointer;
+    height: 15em;
+    padding: 0em 1em;
+    margin: .1em .2em;
+    width: 13em;
+    border: 0;
+    box-sizing: border-box;
+}
+.content-section{
+    height: fit-content;
+}
